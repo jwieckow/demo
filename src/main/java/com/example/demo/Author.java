@@ -51,7 +51,7 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public Set<Book> getBook() {
+    public Set<Book> getBooks() {
         return book;
     }
 
