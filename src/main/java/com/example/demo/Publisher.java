@@ -14,6 +14,9 @@ public class Publisher {
     @GeneratedValue
     private Long id;
 
+    public Publisher() {
+    }
+
     public Publisher(String name, String address) {
         this.name = name;
         this.address = address;
